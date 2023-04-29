@@ -1,0 +1,12 @@
+h2 {
+  color:#5500ff;
+}
+
+.highlight{
+  border: 1px solid;
+  border-color: #FF0000;
+}
+
+#profile{
+  border: 2px solid #FF0000;  
+}
