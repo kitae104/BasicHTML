@@ -7,72 +7,96 @@
     <title>인스타그램</title>
     <!-- css-->
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div>
+    <div id="top">
       <img src="./images/instagram_logo.png" />
-      <input type="search" value="검색"/>
+      <input type="search" value="검색" />
+      <div>
+        <i class="fas fa-home"></i>
+        <i class="far fa-paper-plane"></i>
+        <i class="far fa-compass"></i>
+        <i class="far fa-heart"></i>
+      </div>
     </div>
     <div id="profile">
-      <img src="./images/my_pic.png" width="50px"/>
-      <div>
-        <h2>aqua0405</h2>
+      <div id="profile_pic">
+        <img class="circle_pic" src="./images/my_pic.png" />
+      </div>
+      <div id="profile_info">
+        <div id="id">kitae104<i class="fas fa-cog"></i></div>
         <button>프로필 편집</button>
       </div>
-    </div>    
+    </div>
     <div>
       <p>
         <strong> 김기태(Kim Ki Tae) </strong><br />
         교수
       </p>
       <p>
-        <a href="https://github.com/kitae104/"> https://github.com/kitae104/ </a>
+        <a href="https://github.com/kitae104/">
+          https://github.com/kitae104/
+        </a>
       </p>
     </div>
-    <div>
+    <div id="highlight_area">
       <div class="highlight">
-        <div>
-          <img src="images/hl_1.jpg" height="35px"/>
+        <div class="highlight_pic">
+          <img class="circle_pic" src="images/hl_1.jpg" />
         </div>
-        <div>
-          🕵️‍♂️
-        </div>
+        <div>🕵️‍♂️</div>
       </div>
       <div class="highlight">
-        <div>
-          <img src="images/hl_2.jpg" height="35px"/>
+        <div class="highlight_pic">
+          <img class="circle_pic" src="images/hl_2.jpg" />
         </div>
-        <div>
-          👨‍🎓
-        </div>
+        <div>👨‍🎓</div>
       </div>
-      
+      <div></div>
     </div>
-    <div>
-      <div>
+    <div id="stat_bar">
+      <div class="stat">
         게시물<br />
         133
       </div>
-      <div>
+      <div class="stat">
         팔로워<br />
         408
       </div>
-      <div>
+      <div class="stat">
         팔로우<br />
         189
-      </div>      
+      </div>
     </div>
-    <div>아이콘이 들어갈 자리</div>
+    <div id="sub_icons">
+      <div class="selected">
+        <i class="fas fa-border-all"></i>
+      </div>
+      <div><i class="fas fa-film"></i></div>
+      <div><i class="far fa-play-circle"></i></div>
+      <div><i class="far fa-bookmark"></i></div>
+      <div><i class="fas fa-user-tag"></i></div>
+    </div>
     <div>
-      <img src="images/thumbnails/1.jpg" width="32%"/>
-      <img src="images/thumbnails/2.jpg" width="32%"/>
-      <img src="images/thumbnails/3.jpg" width="32%"/>
-      <img src="images/thumbnails/4.jpg" width="32%"/>
-      <img src="images/thumbnails/5.jpg" width="32%"/>
-      <img src="images/thumbnails/6.jpg" width="32%"/>
-      <img src="images/thumbnails/7.jpg" width="32%"/>
-      <img src="images/thumbnails/8.jpg" width="32%"/>
-      <img src="images/thumbnails/9.jpg" width="32%"/>
+      <div class="thumbnail_grid">
+        <img class="thumbnail" src="images/thumbnails/1.jpg" />
+        <img class="thumbnail" src="images/thumbnails/2.jpg" />
+        <img class="thumbnail" src="images/thumbnails/3.jpg" />
+      </div>
+      <div class="thumbnail_grid">
+        <img class="thumbnail" src="images/thumbnails/4.jpg" />
+        <img class="thumbnail" src="images/thumbnails/5.jpg" />
+        <img class="thumbnail" src="images/thumbnails/6.jpg" />
+      </div>
+      <div class="thumbnail_grid">
+        <img class="thumbnail" src="images/thumbnails/7.jpg" />
+        <img class="thumbnail" src="images/thumbnails/8.jpg" />
+        <img class="thumbnail" src="images/thumbnails/9.jpg" />
+      </div>
     </div>
   </body>
 </html>

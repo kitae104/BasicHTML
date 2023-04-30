@@ -1,0 +1,11 @@
+fontselector {
+  color: #FFFFFF;                      /* white */
+  font-family: 'Roboto', sans-serif;     /* 폰트 */
+  font-size: 16px;                      /* 폰트 크기 */
+  font-weight: 100;                     /* 폰트 굵기 100 ~ 900 */
+  font-variant: small-caps;             /* 폰트 변형 */
+  line-height: 1.5;                     /* 줄 간격 */
+  text-align: center;                   /* 텍스트 정렬 */
+  text-decoration: underline;           /* 텍스트 장식 */
+  text-rendering: optimizeLegibility;   /* 텍스트 렌더링 */
+}
