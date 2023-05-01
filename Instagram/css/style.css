@@ -1,3 +1,7 @@
+body {
+  font-size: 3vw; /* 글자 크기 - 동적 사이징 */
+}
+
 h2 {
   color: #5500ff;
 }
@@ -5,10 +9,11 @@ h2 {
 #top {
   display: grid;
   grid-template-columns: 4fr 7fr 4fr; /* 3개의 열을 가진 그리드 */
-  height: 30px;
+  height: 10vw;
+  min-height: 10vw;
 
   border-bottom: solid gray 0.1px;
-  margin-bottom: 10px;
+  margin-bottom: 3vw;
 }
 
 #top img {
@@ -34,7 +39,7 @@ h2 {
   border: 1px solid gray; /* 테두리 */
   border-radius: 3px; /* 모서리를 둥글게 */
 
-  font-size: 10px;
+  font-size: 3vw; /* 글자 크기 - 동적 사이징 */
   font-weight: 100;
 }
 
@@ -43,16 +48,16 @@ i {
 }
 
 #top i {
-  font-size: 14px;
+  font-size: 4vw;
 }
 
 #top div {
   text-align: center;
-  padding-top: 6px;
+  padding-top: 3vw; /* 위 여백 - 동적 사이징 */
 }
 
 #id {
-  font-size: 18px;
+  font-size: 6vw;
   font-weight: 100;
 }
 
@@ -60,7 +65,7 @@ button {
   height: 80%;
   width: 95%;
 
-  font-size: 10px;
+  font-size: 3vw;
   background-color: white;
   border: 1px solid gray;
   border-radius: 3px;
@@ -72,15 +77,15 @@ button {
 }
 
 #profile_pic {
-  width: 50px;
-  height: 50px;
+  width: 15vw; /* 너비 지정 */
+  height: 15vw; /* 높이 지정 */
 }
 
 #profile_info {
   display: grid; /* 그리드 사용 */
   grid-template-rows: 1fr 1fr; /* 2개의 행을 가진 그리드 */
 
-  height: 50px; /* 높이 지정 */
+  height: 15vw; /* 높이 지정 */
 }
 
 .thumbnail_grid {
@@ -112,9 +117,9 @@ button {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 4개의 열을 가진 그리드 */
 
   text-align: center;
-  font-size: 15px;
+  font-size: 5vw;
 
-  height: 30px;
+  height: 8vw;
 }
 
 .selected {
@@ -131,8 +136,8 @@ button {
 }
 
 .highlight_pic {
-  width: 35px;
-  height: 35px;
+  width: 10vw;
+  height: 10vw;
 
   margin-left: auto; /* 왼쪽 여백을 최대로 */
   margin-right: auto; /* 오른쪽 여백을 최대로 */
@@ -140,7 +145,7 @@ button {
 
 #highlight_area {
   display: grid;
-  grid-template-columns: 45px 45px 1fr; /* 2개의 열을 가진 그리드 */
+  grid-template-columns: 12vw 12vw 1fr; /* 2개의 열을 가진 그리드 */
 }
 
 .highlight {
